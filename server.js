@@ -13,43 +13,43 @@ var server = http.createServer (function (req, res) {
     case '/index.html':
       sendFile(res, 'public/index.html')
       break
-    case 'public/img/clayton.png':
+    case '/public/img/clayton.png':
       sendFile(res, 'public/img/clayton.png')
       break
-    case 'public/img/jon.png':
+    case '/public/img/jon.png':
       sendFile(res, 'public/img/jon.png')
       break
     case '/css/style.css':
       sendFile(res, 'public/css/style.css', 'text/css')
       break
-    case 'public/img/joshua.png':
+    case '/public/img/joshua.png':
       sendFile(res, 'public/img/joshua.png')
       break
-    case 'public/img/karsten.png':
+    case '/public/img/karsten.png':
       sendFile(res, 'public/img/karsten.png')
       break
-    case 'public/img/krystal.png':
+    case '/public/img/krystal.png':
       sendFile(res, 'public/img/krystal.png')
       break
-    case 'public/img/mitchell.png':
+    case '/public/img/mitchell.png':
       sendFile(res, 'public/img/mitchell.png')
       break
-    case 'public/img/niko.png':
+    case '/public/img/niko.png':
       sendFile(res, 'public/img/niko.png')
       break
-    case 'public/img/sai.png':
+    case '/public/img/sai.png':
       sendFile(res, 'public/img/sai.png')
       break
-    case 'public/img/thomas.png':
+    case '/public/img/thomas.png':
       sendFile(res, 'public/img/thomas.png')
       break
-    case 'public/img/tung.png':
+    case '/public/img/tung.png':
       sendFile(res, 'public/img/tung.png')
       break
-    case 'public/img/wong.png':
+    case '/public/img/wong.png':
       sendFile(res, 'public/img/wong.png')
       break
-    case 'public/img/yianni.png':
+    case '/public/img/yianni.png':
       sendFile(res, 'public/img/yianni.png')
       break
     
