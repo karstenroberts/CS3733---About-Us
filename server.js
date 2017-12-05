@@ -19,7 +19,7 @@ var server = http.createServer (function (req, res) {
     case '/public/img/jon.png':
       sendFile(res, 'public/img/jon.png')
       break
-    case '/css/style.css':
+    case '/public/css/style.css':
       sendFile(res, 'public/css/style.css', 'text/css')
       break
     case '/public/img/joshua.png':
