@@ -13,6 +13,12 @@ var server = http.createServer (function (req, res) {
     case '/index.html':
       sendFile(res, 'public/index.html')
       break
+    case '/public/img/blue2560x1600.png':
+      sendFile(res, 'public/img/blue2560x1600.png')
+      break
+    case '/public/img/bw.jpg':
+      sendFile(res, 'public/img/bw.jpg')
+      break
     case '/public/img/clayton.png':
       sendFile(res, 'public/img/clayton.png')
       break
@@ -36,7 +42,22 @@ var server = http.createServer (function (req, res) {
       break
     case '/public/img/niko.png':
       sendFile(res, 'public/img/niko.png')
-      break
+    break
+  case '/public/img/ptins.png':
+    sendFile(res, 'public/img/ptins.png')
+    break
+  case '/public/img/shut1.png':
+    sendFile(res, 'public/img/shut1.png')
+    break
+  case '/public/img/shut2.png':
+    sendFile(res, 'public/img/shut2.png')
+    break
+  case '/public/img/shut3.png':
+    sendFile(res, 'public/img/shut3.png')
+    break
+  case '/public/staffins.png':
+    sendFile(res, 'public/img/staffins.png')
+    break
     case '/public/img/sai.png':
       sendFile(res, 'public/img/sai.png')
       break
